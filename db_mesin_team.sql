@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jan 21, 2024 at 02:44 PM
+-- Generation Time: Jan 21, 2024 at 04:25 PM
 -- Server version: 8.0.30
 -- PHP Version: 7.4.33
 
@@ -124,7 +124,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `machine`
 --
 ALTER TABLE `machine`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `role_user`
