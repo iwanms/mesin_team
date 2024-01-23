@@ -244,7 +244,7 @@
     </div>
     <!-- /.modal add -->
 
-	<!-- modal hide -->
+	<!-- modal edit -->
     <div class="modal fade" id="modal-edit">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -259,5 +259,5 @@
 		</div>
     	<!-- /.modal-dialog -->
     </div>
-    <!-- /.modal hide -->
+    <!-- /.modal edit -->
 

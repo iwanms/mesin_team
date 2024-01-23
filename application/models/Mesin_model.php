@@ -18,8 +18,8 @@ class Mesin_model extends CI_Model
 		// if($f1){
 		// 	$this->db->where('id',$f1); 
 		// }
-		$column_order = array('rank','name_mesin');
-    	$column_search = array('name_mesin','equip_no');
+		$column_order = array('rank','machine_name');
+    	$column_search = array('machine_name','equip_no');
 		$order = array('rank' => 'desc');
 		$this->db->from("machine");
 
@@ -70,8 +70,46 @@ class Mesin_model extends CI_Model
 		$data["section"] = $this->input->post("section");
 		$data["equip_no"] = $this->input->post("equip_no");
 		$data["cycle"] = $this->input->post("cycle");
+		$data["create_by"] = $this->session->userdata("kode_user");
+		$data["create_date"] = date('Y-m-d H:i:s');
 
         $this->db->insert('machine',$data);
         return true;
     }
+
+    public function get_mesin_by_id($id){
+        $this->db->where("id",$id);
+        $user = $this->db->get("machine")->row();
+        return $user;
+    }
+
+    public function cek_machine_name_exist($machine_name, $machine_name_lama){
+        $this->db->where("machine_name !=",$machine_name_lama);
+        $this->db->where("machine_name",$machine_name);
+        $user = $this->db->get("machine")->row();
+        return $user;
+    }
+
+    public function cek_equip_no_exist($equip_no, $equip_no_lama){
+        $this->db->where("equip_no !=",$equip_no_lama);
+        $this->db->where("equip_no",$equip_no);
+        $user = $this->db->get("machine")->row();
+        return $user;
+    }
+
+    public function update($id)
+	{
+        $data["rank"] = $this->input->post("rank");
+		$data["machine_name"] = $this->input->post("machine_name");
+		$data["section"] = $this->input->post("section");
+		$data["equip_no"] = $this->input->post("equip_no");
+		$data["cycle"] = $this->input->post("cycle");
+		$data["update_by"] = $this->session->userdata("kode_user");
+		$data["update_date"] = date('Y-m-d H:i:s');
+
+        $this->db->set($data);
+        $this->db->where("id", $id);
+        $this->db->update('machine');
+        return true;
+	}
 }

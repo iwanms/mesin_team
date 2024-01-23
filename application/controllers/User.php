@@ -23,16 +23,21 @@ class User extends CI_Controller {
 
 	public function index()
 	{
-		$data["page"] = "Kelola Data User";
-		$data["level"] = $this->get_level();
-
-		$ajax=$this->input->get_post("ajax");
-		if($ajax=="yes")
-		{
-			$this->load->view('user/index', $data);
+		if(empty($this->session->userdata('is_login')))
+        {
+			redirect('auth');
 		}else{
-			$data['konten']="user/index";
-			$this->_template($data);
+			$data["page"] = "Kelola Data User";
+			$data["level"] = $this->get_level();
+
+			$ajax=$this->input->get_post("ajax");
+			if($ajax=="yes")
+			{
+				$this->load->view('user/index', $data);
+			}else{
+				$data['konten']="user/index";
+				$this->_template($data);
+			}
 		}
 	}
 

@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="box-body">
-          <p>photo user <?= $this->session->userdata("role")?></p>
+          <!-- <p>photo user <?= $this->session->userdata("role")?></p> -->
         </div>
         <!-- /.box-body -->
         <div class="box-footer">

@@ -31,10 +31,6 @@
 						</div>
         </div>
         <!-- /.box-body -->
-        <div class="box-footer">
-          Footer
-        </div>
-        <!-- /.box-footer-->
       </div>
       <!-- /.box -->
 
@@ -135,6 +131,64 @@
           }
         })
       }
+
+      function edit(id){
+      $.ajax({
+            url: "<?=base_url()?>mesin/edit",
+            data: {id:id},
+            type: "POST",
+            dataType : "JSON",
+            success:function(response){
+              $("#form-edit").html(response);
+            }
+          });
+      }
+
+      function update(){
+        var id = $('input[name="id"]').val();
+        var rank = $('input[name="rank_edit"]').val();
+        var machine_name = $('input[name="machine_name_edit"]').val();
+        var machine_name_lama = $('input[name="machine_name_lama_edit"]').val();
+        var section = $('input[name="section_edit"]').val();
+        var equip_no = $('input[name="equip_no_edit"]').val();
+        var equip_no_lama = $('input[name="equip_no_lama_edit"]').val();
+        var cycle = $('input[name="cycle_edit"]').val();
+        $.ajax({
+          url: "<?=base_url()?>mesin/update_mesin",
+          data: {id:id, rank: rank, machine_name: machine_name, machine_name_lama: machine_name_lama, section: section, equip_no: equip_no, equip_no_lama: equip_no_lama, cycle: cycle},
+          type: "POST",
+          dataType : "JSON",
+          success:function(response){
+            if(response.error){
+              Swal.fire(
+                response.error,
+                'Error!',
+                'error'
+              )
+            }else{
+              Swal.fire(
+                response.success,
+                'Success',
+                'success'
+              );
+			  reload_datatable();
+			  $("#modal-edit").modal('hide');
+            }
+          }
+        });
+      }
+
+      function penilaian(id){
+      $.ajax({
+            url: "<?=base_url()?>mesin/penilaian",
+            data: {id:id},
+            type: "POST",
+            dataType : "JSON",
+            success:function(response){
+              $("#form-penilaian").html(response);
+            }
+          });
+      }
     </script>
 
 
@@ -180,3 +234,39 @@
       <!-- /.modal-dialog -->
     </div>
     <!-- /.modal add -->
+
+
+    	<!-- modal edit -->
+      <div class="modal fade" id="modal-edit">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header" id="form-edit">
+					
+					
+				</div>
+
+			</div>
+			<!-- /.modal-content -->
+		</div>
+    	<!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal edit -->
+
+
+    <!-- modal penilaian -->
+    <div class="modal fade" id="modal-penilaian">
+		<div class="modal-dialog" style="width:1400px">
+			<div class="modal-content">
+
+				<div class="modal-header" id="form-penilaian">
+					
+					
+				</div>
+
+			</div>
+			<!-- /.modal-content -->
+		</div>
+    	<!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal penilaian -->

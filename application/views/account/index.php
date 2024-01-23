@@ -64,7 +64,7 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-        <button class="btn btn-primary text-right" id="btn_upload" onclick="save()">Update</button>
+        <button class="btn btn-primary" id="btn_upload" onclick="save()">Update</button>
         </div>
       </div>
       <!-- /.box -->

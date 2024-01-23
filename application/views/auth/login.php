@@ -33,7 +33,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="<?=base_url()?>assets/adminlte/index2.html"><b>Pegawai</b></a>
+    <a href="<?=base_url()?>assets/adminlte/index2.html"><b>Equipment Inspection</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
