@@ -112,4 +112,9 @@ class Mesin_model extends CI_Model
         $this->db->update('machine');
         return true;
 	}
+
+    public function get_part(){
+        $part = $this->db->get("master_part")->result();
+        return $part;
+    }
 }

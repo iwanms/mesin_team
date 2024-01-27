@@ -152,12 +152,83 @@ class Mesin extends CI_Controller {
 	}
 
 	function penilaian(){
-		$data["penilaian"] = $this->get_penilaian_variable();
+		// $data["pen_part1"] = $this->get_pen_var_part1();
+		// $data["count_part1"] = $this->get_count_part1();
+
+		// $data["pen_part2"] = $this->get_pen_var_part2();
+		// $data["count_part2"] = $this->get_count_part2();
+		
+		// $data["pen_part3"] = $this->get_pen_var_part3();
+		// $data["count_part3"] = $this->get_count_part3();
+
+		// $data["pen_part4"] = $this->get_pen_var_part4();
+		// $data["count_part4"] = $this->get_count_part4();
+
+		// $data["pen_part5"] = $this->get_pen_var_part5();
+		// $data["count_part5"] = $this->get_count_part5();
+
+		$data["part"] = $this->mdl->get_part();
+
 		echo json_encode($this->load->view("mesin/penilaian", $data, true));
 	}
 
-	function get_penilaian_variable(){
-        $var = $this->db->get("master_penilaian")->result();
-        return $var;
-	}
+	// function get_pen_var_part1(){
+	// 	$this->db->where("inspect_part_name","hydrolic_unit");
+    //     $var = $this->db->get("master_penilaian")->result();
+    //     return $var;
+	// }
+
+	// function get_count_part1(){
+	// 	$this->db->where("inspect_part_name","hydrolic_unit");
+    //     $var = $this->db->get("master_penilaian")->num_rows();
+    //     return $var;
+	// }
+
+	// function get_pen_var_part2(){
+	// 	$this->db->where("inspect_part_name","lubricating_circuit");
+    //     $var = $this->db->get("master_penilaian")->result();
+    //     return $var;
+	// }
+
+	// function get_count_part2(){
+	// 	$this->db->where("inspect_part_name","lubricating_circuit");
+    //     $var = $this->db->get("master_penilaian")->num_rows();
+    //     return $var;
+	// }
+
+	// function get_pen_var_part3(){
+	// 	$this->db->where("inspect_part_name","pneumatik_circuit");
+    //     $var = $this->db->get("master_penilaian")->result();
+    //     return $var;
+	// }
+
+	// function get_count_part3(){
+	// 	$this->db->where("inspect_part_name","pneumatik_circuit");
+    //     $var = $this->db->get("master_penilaian")->num_rows();
+    //     return $var;
+	// }
+
+	// function get_pen_var_part4(){
+	// 	$this->db->where("inspect_part_name","water_circuit");
+    //     $var = $this->db->get("master_penilaian")->result();
+    //     return $var;
+	// }
+
+	// function get_count_part4(){
+	// 	$this->db->where("inspect_part_name","water_circuit");
+    //     $var = $this->db->get("master_penilaian")->num_rows();
+    //     return $var;
+	// }
+
+	// function get_pen_var_part5(){
+	// 	$this->db->where("inspect_part_name","drive_unit");
+    //     $var = $this->db->get("master_penilaian")->result();
+    //     return $var;
+	// }
+
+	// function get_count_part5(){
+	// 	$this->db->where("inspect_part_name","drive_unit");
+    //     $var = $this->db->get("master_penilaian")->num_rows();
+    //     return $var;
+	// }
 }
