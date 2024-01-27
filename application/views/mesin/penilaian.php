@@ -100,17 +100,17 @@
                     <td>Lihat dan cek kebocoran</td>
                     <td>5 ~ 6 Mpa dan tidak ada kebocoran</td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_unit_pompa_oli_md" id="hydrolic_unit_pompa_oli_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_unit_pompa_oli_j" id="hydrolic_unit_pompa_oli_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_unit_pompa_oli_m" id="hydrolic_unit_pompa_oli_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -119,17 +119,17 @@
                     <td>Cek kerusakan karet koupling</td>
                     <td>Tidak ada kerusakan karet koupling</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_accumulator_md" id="hydrolic_accumulator_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_accumulator_j" id="hydrolic_accumulator_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_accumulator_m" id="hydrolic_accumulator_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -138,17 +138,17 @@
                     <td>Lihat dan cek</td>
                     <td>Tidak ada kebocoran dan kerusakan</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_body_tangki_oli_md" id="hydrolic_body_tangki_oli_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_body_tangki_oli_j" id="hydrolic_body_tangki_oli_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_body_tangki_oli_m" id="hydrolic_body_tangki_oli_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -157,17 +157,17 @@
                     <td>Lihat dan cek dengan termometer</td>
                     <td> Max 50 oC, batas level atas</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_oli_temperature_md" id="hydrolic_level_oli_temperature_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_oli_temperature_j" id="hydrolic_level_oli_temperature_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_oli_temperature_m" id="hydrolic_level_oli_temperature_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -176,17 +176,17 @@
                     <td>Lihat kerusakan dan cek kebocoran</td>
                     <td>Tidak ada kerusakan, akurasi titik nol</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_pressure_gauge_md"  id="hydrolic_level_pressure_gauge_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_pressure_gauge_j" id="hydrolic_level_pressure_gauge_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_pressure_gauge_m" id="hydrolic_level_pressure_gauge_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -195,17 +195,17 @@
                     <td>Lihat kerusakan dan settingan</td>
                     <td>Tidak ada kerusakan </td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_pressure_switch_md" id="hydrolic_level_pressure_switch_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_pressure_switch_j" id="hydrolic_level_pressure_switch_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_pressure_switch_m" id="hydrolic_level_pressure_switch_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -213,18 +213,18 @@
                     <td>Kebocoran oli </td>
                     <td>Lihat kebocoran dan kerusakan </td>
                     <td>Tidak ada kebocoran dan kerusakan</td>
-                <td>
-                        <input type="text" name="" class="form-control">
+                    <td>
+                        <input type="text" name="hydrolic_level_solenoid_valve_latch_md" id="hydrolic_level_solenoid_valve_latch_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_solenoid_valve_latch_j" id="hydrolic_level_solenoid_valve_latch_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_solenoid_valve_latch_m" id="hydrolic_level_solenoid_valve_latch_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -233,17 +233,19 @@
                     <td>Lihat kebocoran dan kerusakan </td>
                     <td>Tidak ada kebocoran dan kerusakan</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_directional_valve_drop_door_md" id="hydrolic_level_directional_valve_drop_door_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_directional_valve_drop_door_j" id="hydrolic_level_directional_valve_drop_door_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_directional_valve_drop_door_m" 
+                        id="hydrolic_level_directional_valve_drop_door_m"
+                        class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -252,17 +254,17 @@
                     <td>Cek kerusakan dan kebocoran oli</td>
                     <td>Tidak ada kerusakan, tekanan 6 Mpa</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_relief_valve_md" id="hydrolic_level_relief_valve_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_relief_valve_j" id="hydrolic_level_relief_valve_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_relief_valve_m" id="hydrolic_level_relief_valve_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -271,17 +273,17 @@
                     <td>Cek kerusakan dan quantity grease</td>
                     <td>Tidak ada kerusakan, 1/4 bagian tabung</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_grease_pump_md" id="hydrolic_level_grease_pump_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_grease_pump_j" id="hydrolic_level_grease_pump_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_grease_pump_m" id="hydrolic_level_grease_pump_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -290,17 +292,17 @@
                     <td>Lihat dan cek kebocoran</td>
                     <td>Tidak ada kebocoran</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_piping_flexible_hose_grease_md" id="hydrolic_level_piping_flexible_hose_grease_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_piping_flexible_hose_grease_j" id="hydrolic_level_piping_flexible_hose_grease_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_piping_flexible_hose_grease_m" id="hydrolic_level_piping_flexible_hose_grease_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -309,17 +311,18 @@
                     <td>Lihat dan cek kebocoran,keretakan dan deformasi</td>
                     <td>Tidak ada kebocoran,deformasi dan keretakan</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_piping_flexible_hose_oli_md" id="hydrolic_level_piping_flexible_hose_oli_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_piping_flexible_hose_oli_j" id="hydrolic_level_piping_flexible_hose_oli_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_piping_flexible_hose_oli_m" 
+                        id="hydrolic_level_piping_flexible_hose_oli_m" class="form-control">
                     </td>
                 </tr>
                 <tr>
@@ -328,17 +331,17 @@
                     <td>Cek dan bersihkan 1 tahun sekali</td>
                     <td>Bersih dan tidak ada kerusakan</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_suction_filter_md" id="hydrolic_level_suction_filter_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="hydrolic_level_suction_filter_j" id="hydrolic_level_suction_filter_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="hydrolic_level_suction_filter_m" id="hydrolic_level_suction_filter_m" class="form-control">
                     </td>
                 </tr>
 
@@ -353,17 +356,17 @@
                     <td>Cek kenduran, keausan dan lumasi</td>
                     <td>Tidak ada kekenduran, keausan dan terlumasi</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_rantai_dan_sprocket_md" id="lubricating_circuit_rantai_dan_sprocket_md"  class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="lubricating_circuit_rantai_dan_sprocket_j" id="lubricating_circuit_rantai_dan_sprocket_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_rantai_dan_sprocket_m"  id="lubricating_circuit_rantai_dan_sprocket_m" class="form-control">
                     </td>
                 </tr>
                 <tr class="silver">
@@ -372,17 +375,17 @@
                     <td>Cek kebocoran dan kerusakan tangki</td>
                     <td>Tidak ada kebocoran dan kerusakan</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_tangki_oli_for_dust_stop_md"  id="lubricating_circuit_tangki_oli_for_dust_stop_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="lubricating_circuit_tangki_oli_for_dust_stop_j" id="lubricating_circuit_tangki_oli_for_dust_stop_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_tangki_oli_for_dust_stop_m" id="lubricating_circuit_tangki_oli_for_dust_stop_m" class="form-control">
                     </td>
                 </tr>
                 <tr class="silver">
@@ -391,17 +394,18 @@
                     <td>Cek kebocoran dan cek level oli</td>
                     <td>Tidak ada kebocoran, batas atas level oli</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_oil_lubricator_for_dust_stop_md" id="lubricating_circuit_oil_lubricator_for_dust_stop_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="lubricating_circuit_oil_lubricator_for_dust_stop_j" id="lubricating_circuit_oil_lubricator_for_dust_stop_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_oil_lubricator_for_dust_stop_m" 
+                        id="lubricating_circuit_oil_lubricator_for_dust_stop_m" class="form-control">
                     </td>
                 </tr>
                 <tr class="silver">
@@ -410,17 +414,18 @@
                     <td>Cek kebocoran dan kerusakan tangki</td>
                     <td>Tidak ada kebocoran dan kerusakan</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_tangki_oli_for_process_oil_md" 
+                        id="lubricating_circuit_tangki_oli_for_process_oil_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="lubricating_circuit_tangki_oli_for_process_oil_j" id="lubricating_circuit_tangki_oli_for_process_oil_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_tangki_oli_for_process_oil_m" id="lubricating_circuit_tangki_oli_for_process_oil_m" class="form-control">
                     </td>
                 </tr>
                 <tr class="silver">
@@ -429,17 +434,18 @@
                     <td>Cek kebocoran dan cek level oli</td>
                     <td>Tidak ada kebocoran, batas atas level oli</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_oil_lubricator_for_process_oil_md"id="lubricating_circuit_oil_lubricator_for_process_oil_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="lubricating_circuit_oil_lubricator_for_process_oil_j" id="lubricating_circuit_oil_lubricator_for_process_oil_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_oil_lubricator_for_process_oil_m"
+                        id="lubricating_circuit_oil_lubricator_for_process_oil_m" class="form-control">
                     </td>
                 </tr>
                 <tr class="silver">
@@ -448,17 +454,18 @@
                     <td>Dengar suara abnormal, cek kebocoran</td>
                     <td>Tidak ada suara abnormal, dan kebocoran</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_supply_pompa_for_dust_stop_md" id="lubricating_circuit_supply_pompa_for_dust_stop_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="lubricating_circuit_supply_pompa_for_dust_stop_j" id="lubricating_circuit_supply_pompa_for_dust_stop_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_supply_pompa_for_dust_stop_m"
+                        id="lubricating_circuit_supply_pompa_for_dust_stop_m" class="form-control">
                     </td>
                 </tr>
                 <tr class="silver">
@@ -467,17 +474,19 @@
                     <td>Dengar suara abnormal, cek kebocoran</td>
                     <td>Tidak ada suara abnormal, dan kebocoran</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_supply_pompa_for_process_oil_md"
+                        id="lubricating_circuit_supply_pompa_for_process_oil_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="lubricating_circuit_supply_pompa_for_process_oil_j" id="lubricating_circuit_supply_pompa_for_process_oil_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_supply_pompa_for_process_oil_m"
+                        id="lubricating_circuit_supply_pompa_for_process_oil_m" class="form-control">
                     </td>
                 </tr>
                 <tr class="silver">
@@ -486,17 +495,18 @@
                     <td>Lihat dan cek kebocoran,keretakan dan deformasi</td>
                     <td>Tidak ada kebocoran,deformasi dan keretakan</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_piping_flexible_hose_oli_md"
+                        id="lubricating_circuit_piping_flexible_hose_oli_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="lubricating_circuit_piping_flexible_hose_oli_j" id="lubricating_circuit_piping_flexible_hose_oli_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="lubricating_circuit_piping_flexible_hose_oli_m" id="lubricating_circuit_piping_flexible_hose_oli_m" class="form-control">
                     </td>
                 </tr>
 
@@ -508,17 +518,19 @@
                     <td>Lihat, cek tekanan dan kebocoran </td>
                     <td> 0.4 ñ 0.05 Mpa dan tidak ada kebocoran</td>	
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="pneumatik_circuit_regulator_angin_md" 
+                        id="pneumatik_circuit_regulator_angin_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="pneumatik_circuit_regulator_angin_j" id="pneumatik_circuit_regulator_angin_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="pneumatik_circuit_regulator_angin_m" 
+                        id="pneumatik_circuit_regulator_angin_m" class="form-control">
                     </td>
                 </tr>
 
@@ -528,17 +540,18 @@
                     <td>Cek tekanan dan kebocoran angin</td>
                     <td>0.5 ~ 0.7 Mpa dan tidak ada kebocoran</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="pneumatik_circuit_regulator_angin_for_ap_valve_md" 
+                        id="pneumatik_circuit_regulator_angin_for_ap_valve_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="pneumatik_circuit_regulator_angin_for_ap_valve_j" id="pneumatik_circuit_regulator_angin_for_ap_valve_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="pneumatik_circuit_regulator_angin_for_ap_valve_m" id="pneumatik_circuit_regulator_angin_for_ap_valve_m" class="form-control">
                     </td>
                 </tr>
 
@@ -548,17 +561,18 @@
                     <td>Lihat dan cek kebocoran</td>
                     <td>Tidak ada kebocoran</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="pneumatik_circuit_piping_flexible_hose_air_md" id="pneumatik_circuit_piping_flexible_hose_air_md"  class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="pneumatik_circuit_piping_flexible_hose_air_j" id="pneumatik_circuit_piping_flexible_hose_air_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="pneumatik_circuit_piping_flexible_hose_air_m"
+                        id="pneumatik_circuit_piping_flexible_hose_air_m" class="form-control">
                     </td>
                 </tr>
 
@@ -570,17 +584,17 @@
                     <td>Cek kebocoran dan proses kerja</td>
                     <td>Tidak ada kebocoran air, bekerja normal</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="water_circuit_3_way_valve_md" id="water_circuit_3_way_valve_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="water_circuit_3_way_valve_j" id="water_circuit_3_way_valve_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="water_circuit_3_way_valve_m" id="water_circuit_3_way_valve_m" class="form-control">
                     </td>
                 </tr>
 
@@ -590,17 +604,18 @@
                     <td>Lihat pressure gauge</td>
                     <td>Tekanan air 0.2 ~ 0.3 Mpa</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="water_circuit_tekanan_air_md" id="water_circuit_tekanan_air_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="water_circuit_tekanan_air_j" id="water_circuit_tekanan_air_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="water_circuit_tekanan_air_m" 
+                        id="water_circuit_tekanan_air_m" class="form-control">
                     </td>
                 </tr>
 
@@ -610,17 +625,19 @@
                     <td>Lihat dan cek kebocoran</td>
                     <td>Tidak ada kebocoran</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="water_circuit_piping_flexible_hose_air_md" 
+                        id="water_circuit_piping_flexible_hose_air_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="water_circuit_piping_flexible_hose_air_j" id="water_circuit_piping_flexible_hose_air_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="water_circuit_piping_flexible_hose_air_m" 
+                        id="water_circuit_piping_flexible_hose_air_m" class="form-control">
                     </td>
                 </tr>
                                     
@@ -632,17 +649,17 @@
                     <td>Cek kekenduran dan keausan</td>
                     <td>Tidak ada kekenduran baut dan keausan</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="drive_unit_koupling_flange_md" id="drive_unit_koupling_flange_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="drive_unit_koupling_flange_j" id="drive_unit_koupling_flange_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="drive_unit_koupling_flange_m" id="drive_unit_koupling_flange_m" class="form-control">
                     </td>
                 </tr>
 
@@ -652,17 +669,17 @@
                     <td>Dengar suara abnormal, cek level oli</td>
                     <td>Tidak ada suara abnormal, batas atas level oli</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="drive_unit_gear_reducer_md" id="drive_unit_gear_reducer_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="drive_unit_gear_reducer_j" id="drive_unit_gear_reducer_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="drive_unit_gear_reducer_m" id="drive_unit_gear_reducer_m" class="form-control">
                     </td>
                 </tr>
 
@@ -672,17 +689,17 @@
                     <td>Cek pengikisan dan lumasi</td>
                     <td>Max pengikisan 1 mm dan terlumasi</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="drive_unit_connecting_gear_md" id="drive_unit_connecting_gear_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="drive_unit_connecting_gear_j" id="drive_unit_connecting_gear_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="drive_unit_connecting_gear_m" id="drive_unit_connecting_gear_m" class="form-control">
                     </td>
                 </tr>
 
@@ -695,17 +712,17 @@
                     <td>Kebocoran air dan pelumasan</td>
                     <td>Lihat kebocoran air dan lumasi</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_1_md" id="main_body_drop_door_1_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_1_j" id="main_body_drop_door_1_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_1_m" id="main_body_drop_door_1_m" class="form-control">
                     </td>
                 </tr>
 
@@ -714,17 +731,17 @@
                     <td>Kebocoran oli, tekanan oli, open angle</td>
                     <td>Tidak ada kebocoran, max 0.65 Mpa, 135o</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_2_md" id="main_body_drop_door_2_md"  class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_2_j" id="main_body_drop_door_2_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_2_m" id="main_body_drop_door_2_m" class="form-control">
                     </td>
                 </tr>
 
@@ -733,17 +750,17 @@
                     <td>Kebocoran oli, latch stroke</td>
                     <td>Tidak ada kebocoran, max 85 mm</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_3_md" id="main_body_drop_door_3_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_3_j" id="main_body_drop_door_3_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_3_m" id="main_body_drop_door_3_m" class="form-control">
                     </td>
                 </tr>
 
@@ -751,18 +768,18 @@
                     <td>Piping, flexible hose oli</td>
                     <td>Lihat dan cek kebocoran</td>
                     <td>Tidak ada kebocoran</td>
-                <td>
-                        <input type="text" name="" class="form-control">
+                    <td>
+                        <input type="text" name="main_body_drop_door_4_md" id="main_body_drop_door_4_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_4_j" id="main_body_drop_door_4_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_4_m" id="main_body_drop_door_4_m" class="form-control">
                     </td>
                 </tr>
 
@@ -771,17 +788,17 @@
                     <td>Cek kebocoran oli</td>
                     <td>Tidak ada kebocoran oli</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_5_md" id="main_body_drop_door_5_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_5_j" id="main_body_drop_door_5_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_5_m" id="main_body_drop_door_5_m"  class="form-control">
                     </td>
                 </tr>
 
@@ -790,17 +807,17 @@
                     <td>Gerakan Guide shaft ram weight lumasi</td>
                     <td>Bergerak lancar, terlumasi</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_6_md" id="main_body_drop_door_6_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_6_j" id="main_body_drop_door_6_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_6_m" id="main_body_drop_door_6_m" class="form-control">
                     </td>
                 </tr>
 
@@ -812,17 +829,17 @@
                     <td>Cek keausan dan cacat</td>
                     <td>Kedua sisi total jarak keausan max 12 mm</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_7_md" id="main_body_drop_door_7_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_7_j" id="main_body_drop_door_7_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_7_m" id="main_body_drop_door_7_m" class="form-control">
                     </td>
                 </tr>
 
@@ -831,17 +848,17 @@
                     <td>Cek ketebalan Karet (Poly Urethan)</td>
                     <td>15mm - 20mm</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_8_md" id="main_body_drop_door_8_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_8_j" id="main_body_drop_door_8_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_8_m" id="main_body_drop_door_8_m"  class="form-control">
                     </td>
                 </tr>
 
@@ -850,17 +867,17 @@
                     <td>Cek kekenduran baut limit dan pipa patah</td>
                     <td>Tidak ada kekenduran dan pipa patah</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_9_md" id="main_body_drop_door_9_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_9_j" id="main_body_drop_door_9_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_9_m" id="main_body_drop_door_9_m" class="form-control">
                     </td>
                 </tr>
 
@@ -869,17 +886,17 @@
                     <td>Cek kekenduran joint dan pin pemukul</td>
                     <td>Tidak ada kekenduran dan pin yg keluar</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_10_md" id="main_body_drop_door_10_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_10_j" id="main_body_drop_door_10_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_10_m" id="main_body_drop_door_10_m" class="form-control">
                     </td>
                 </tr>
 
@@ -891,17 +908,17 @@
                     <td>Cek kebocoran angin, gerakan kedua silinder</td>
                     <td>Tidak ada kebocoran, gerakan seimbang</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_11_md" id="main_body_drop_door_11_md"  class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_11_j" id="main_body_drop_door_11_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_11_m"  id="main_body_drop_door_11_m" class="form-control">
                     </td>
                 </tr>
 
@@ -910,17 +927,17 @@
                     <td>Cek keausan shaft dan lumasi</td>
                     <td>Tidak ada keausan dan terlumasi</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_12_md" id="main_body_drop_door_12_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_12_j" id="main_body_drop_door_12_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_12_m" id="main_body_drop_door_12_m" class="form-control">
                     </td>
                 </tr>
 
@@ -929,17 +946,17 @@
                     <td>Cek dengan mistar baja dan thickness gauge</td>
                     <td>Max keausan 3 mm</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_13_md" id="main_body_drop_door_13_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_13_j" id="main_body_drop_door_13_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_13_m" id="main_body_drop_door_13_m"  class="form-control">
                     </td>
                 </tr>
 
@@ -948,17 +965,17 @@
                     <td>Cek dan lihat parelell key keluar atau tidak</td>
                     <td>Paralell key tidak keluar</td>
                 <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_14_md" id="main_body_drop_door_14_md" class="form-control">
                     </td>
                     <td>
-                        <select name="" id="" class="form-control">
+                        <select name="main_body_drop_door_14_j" id="main_body_drop_door_14_j" class="form-control">
                             <option value="1">No Abnormality</option>
                             <option value="2">Cautious</option>
                             <option value="3">Abnormal</option>
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="" class="form-control">
+                        <input type="text" name="main_body_drop_door_14_m" id="main_body_drop_door_14_m" class="form-control">
                     </td>
                 </tr>
 
